@@ -1,15 +1,18 @@
-# Mark Ceramic Codex workspace
+# Mark Ceramic Codex
 
-Repository for reusable, non-sensitive instructions, templates, and small tools that help continue work across computers with Codex.
+พื้นที่เก็บคำแนะนำและไฟล์งานทั่วไปที่ต้องใช้ต่อใน Codex Cloud เมื่อไม่ได้เปิด Mac โดยคงโปรเจกต์ที่มีแอปหรือระบบเผยแพร่ของตัวเองไว้ใน repository แยก เช่น LINE OA
 
-## Working across devices
+## เริ่มงานจากมือถือ
 
-- Open this same GitHub repository in Codex Cloud when starting work from another device.
-- Commit and push files that should be available to the next device. Pull the latest changes before continuing there.
-- Record important project decisions and reusable instructions in files here; chat history and local folders do not automatically sync through this repository.
+1. เข้าสู่ Codex ด้วยบัญชีเดียวกัน และเลือกงานแบบ Cloud ที่ใช้ repository `markceramic/codex` สาขา `main`
+2. บอกชื่อกิจการและงานที่ต้องการให้ชัด เช่น Mark Ceramic, THE MUG, MUGSCREEN หรือ Nano Florist แล้วแนบรูป/ไฟล์ต้นทางที่งานนั้นต้องใช้
+3. ถ้าจะทำงานต่อจาก Mac ให้บันทึกไฟล์ที่ต้องใช้ร่วมกันลง GitHub หรือพื้นที่ไฟล์ร่วมก่อนปิดเครื่อง ไฟล์ที่อยู่เฉพาะใต้ `/Users/mac/...` จะไม่ปรากฏใน Cloud
+4. เก็บผลลัพธ์และคำแนะนำที่ใช้ซ้ำใน repository นี้ เพื่อให้งานครั้งถัดไปค้นเจอ
 
-## Keep private information out of Git
+## ความพร้อมปัจจุบัน
 
-Do not commit passwords, API tokens, private keys, customer personal information, quotations, or accounting records. Keep those in the relevant business system or an access-controlled file service, and enter credentials through secure environment settings when an application needs them.
+- งานเขียน วางแผน ตรวจข้อมูลสาธารณะ และเตรียมภาพจากไฟล์ที่แนบมา เริ่มทำใน Cloud ได้
+- งานที่ต้องใช้ไฟล์หรือสกิลจาก Mac ต้องส่งสำเนาที่คัดกรองแล้วขึ้นมาเป็นครั้งแรก สกิลต้นฉบับบน Mac ยังคงใช้งานที่เดิม
+- งานแก้ WordPress, FlowAccount, LINE OA หรือ Facebook จริง ต้องมีการเชื่อมต่อบัญชีและสิทธิ์ที่ใช้ได้ใน Cloud งานตั้งเวลาโพสต์ต่อเนื่องต้องพึ่งระบบที่เปิดทำงานตลอด
 
-Use separate repositories for applications that need independent deployment, such as the LINE OA webhook. Store large photo and video collections in shared storage designed for those files, rather than adding them here by default.
+ไม่เก็บรหัสผ่าน token private key ข้อมูลลูกค้าจริง ใบเสนอราคาจริง หรือไฟล์สื่อขนาดใหญ่ใน repository นี้ ให้ใช้ระบบธุรกิจและพื้นที่ไฟล์ร่วมที่กำหนดสิทธิ์ไว้
